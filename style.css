@@ -156,6 +156,7 @@
                                   }
                                   
 
+                                  
                                   @media screen and (max-width: 420px) {
                                     .top {
                                       flex-direction: column;
@@ -175,15 +176,41 @@
                                       grid-column-gap: 25px;
                                       align-items: center;
                                     }
-                                  
+
                                     .weather{
                                       margin: 20px 0;
                                     }
-                                  
+
                                     .divider1,.divider2{
                                       display: none;
                                     }
                                   }
+
+                                .week-forecast{
+                                    display:flex;
+                                    align-items: center;
+                                    flex-direction: column-reverse;
+                
+                                }
+                               
+
+                                .forecst-days{
+                                 padding-right: 3.5rem;
+                                }
+
+
+                                .dayF{
+                                    
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: center;
+                                    margin: 10px 0;
+                                }
+
+                                .dayF p{
+                                    font-size: .8rem;
+                                }
+
                                   @media screen and (max-width: 640px){
                                     .top {
                                       flex-direction: column;
